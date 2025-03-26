@@ -1,0 +1,22 @@
+services:
+  web:
+    build: web
+    restart: always
+    ports:
+      - 8080:80
+  db:
+    build: db
+    restart: always
+    volumes:
+      - db:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8000:80
+    environment:
+      - PMA_HOST=db
+
+volumes:
+  db:
