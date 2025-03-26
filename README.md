@@ -4,4 +4,5 @@
 
 - [`/docker-compose.yml`](/docker-compose.yml) - TP2: **2. Docker Compose pour l'instance DokuWiki**
 - [`/composetest/`](/composetest/) - TP2: **3. Getting started**
-- [`/crud/`](/composetest/) - TP2: **4.2. Stack CRUD**
+- [`/wordpress/`](/wordpress/) - TP2: **4.1. Stack WordPress**
+- [`/crud/`](/crud/) - TP2: **4.2. Stack CRUD**
